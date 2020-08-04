@@ -151,7 +151,7 @@ Name = "os_efs"
 
 resource "aws_s3_bucket" "bucket" {
 
-bucket = "ns123456"
+bucket = "ns09717"
 acl = "public-read"
 force_destroy = true
 policy = <<EOF
@@ -164,7 +164,7 @@ policy = <<EOF
         "s3:GetObject"
       ],
       "Effect": "Allow",
-      "Resource": "arn:aws:s3:::ns123456/*",
+      "Resource": "arn:aws:s3:::ns09717/*",
       "Principal": "*"
     }
   ]
@@ -173,7 +173,7 @@ EOF
 
 
 tags = {
-Name = "ns123456"
+Name = "ns09717"
 }
 }
 
