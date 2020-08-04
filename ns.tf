@@ -140,7 +140,7 @@ user_data = <<-EOF
        sudo mkfs.ext4 /dev/xvdf1
        sudo rm -rf /var/www/html/*
        sudo yum install git -y
-       sudo git clone https://github.com/whoaks/aws_task2.git /var/www/html
+       sudo git clone https://github.com/naman09717/awstask2.git /var/www/html
      
      EOF
 
